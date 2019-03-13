@@ -4,6 +4,7 @@ from setuptools import setup, find_packages
 
 here = os.path.abspath(os.path.dirname(__file__))
 
+//完全是对这个项目的一个描述，和主程序没什么大的关系
 with open('requirements.txt') as f:
     install_reqs = f.readlines()
     reqs = [str(ir) for ir in install_reqs]
